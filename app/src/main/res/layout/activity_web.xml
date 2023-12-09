@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WebActivity">
+
+    <EditText
+        android:id="@+id/webeditid"
+        android:text="https://"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="90dp"/>
+
+    <TextView
+
+        android:id="@+id/webbtnid"
+        android:gravity="center"
+        android:background="#7F59DA"
+        android:textColor="@color/white"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:text="Go" />
+
+    <WebView
+android:id="@+id/webvid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"/>
+
+</FrameLayout>
